@@ -1,0 +1,76 @@
+/* 25 пикселей радиус */
+.b-radius {
+  border-radius: 8px;
+  margin-top: -25px;
+}
+
+/* 10 наверху и 25 внизу пикселей радиус */
+.b-radius1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: 10px;
+}
+
+.youtube-frame {
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.pop-panel {
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.polygonal {
+  background: url(/image/particles/polygonal.png) center center;
+  background-size: cover;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.only-radius {
+  border-radius: 8px;
+  box-shadow: 0px 0px 7px 1px;
+}
+
+.body-background {
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+.back-color {
+  background-color: #1d1d1d;
+}
+
+@media (max-width:768px) {
+  .main-panel-margin {
+    margin-top: 60px;
+  }
+
+  /* Вконтакте виджет */
+  .wcomments_head {
+    background: #1d1d1d !important;
+    position: relative;
+    height: 40px;
+    line-height: 38px;
+    font-size: 13px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    color: #d3dde7;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #vkwidget2 {
+    border-radius: 8px;
+    /*радиус закругленных углов*/
+    border: 0px solid #E5E5E5 !important;
+    /* толщина, вид выделения, цвет рамки*/
+
+  }

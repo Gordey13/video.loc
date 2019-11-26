@@ -1,0 +1,204 @@
+.navbar-vertical-left {
+    position: fixed;
+    left: -9px;
+    top: 0;
+    height: 100%;
+    width: 241px;
+    overflow: hidden;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+.navbar-mobile {
+    width: 100%;
+    text-align: center;
+}
+
+.text_menu {
+    margin-left: 0px;
+}
+
+.navbar-vertical-left ul.navbar-nav {
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin: 0;
+}
+
+
+.navbar-vertical-left ul.navbar-nav:before,
+.navbar-vertical-left ul.navbar-nav:after {
+    display: none;
+}
+
+
+.navbar-vertical-left ul.navbar-nav>li {
+    display: table-row;
+    float: none;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a {
+    display: flex;
+    vertical-align: middle;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a>i.fa {
+    margin-right: 20px;
+}
+
+/* Цвета */
+
+.navbar-vertical-left {
+    background: #1d1d1d;
+}
+
+/* Цвет шрифта */
+.navbar-vertical-left ul.navbar-nav>li>a {
+    color: #fff;
+}
+
+/* Цвета категорий */
+.navbar-vertical-left ul.navbar-nav>li>a.one:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.one:active {
+    background: rgba(255, 31, 0, 0.83);
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.two:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.two:active {
+    background: rgba(255, 31, 0, 0.83);
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.tree:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.tree:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.for:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.for:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.five:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.five:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.six:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.six:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.seven:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.seven:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.eight:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.eight:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.nine:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.nine:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.ten:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.ten:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.eleven:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.eleven:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.twelve:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.twelve:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.thirteen:hover,
+.navbar-vertical-left ul.navbar-nav>li>a.thirteen:active {
+    background: #f90;
+}
+
+.navbar-vertical-left ul.navbar-nav>li>a.selected {
+    background: #d35400;
+}
+
+/* Анимация */
+
+/* .navbar-vertical-left {
+ -webkit-transition: -webkit-transform .3s;
+ -moz-transition: -moz-transform .3s;
+ transition: transform .3s;
+
+ -webkit-transform: translateX(-90px);
+ -moz-transform: translateX(-90px);
+ transform: translateX(-90px);
+}
+.navbar-vertical-left:hover {
+ -webkit-transform: translateX(110px);
+ -moz-transform: translateX(110px);
+ transform: translateX(110px);
+}
+
+.navbar-vertical-left ul.navbar-nav {
+ -webkit-transition: -webkit-transform .3s;
+ -moz-transition: -moz-transform .3s;
+ transition: transform .3s;
+
+ -webkit-transform: translateX(200px);
+ -moz-transform: translateX(200px);
+ transform: translateX(200px);
+}
+
+.navbar-vertical-left:hover ul.navbar-nav {
+ -webkit-transform: translateX(0px);
+ -moz-transform: translateX(0px);
+ transform: translateX(0px);
+} */
+
+/* Изменения для разрешений */
+
+/*@media(max-width: 768px) {
+ .navbar-vertical-left {
+ position: fixed;
+ top: auto;
+ bottom: 0;
+ height: auto;
+ width: 100%;
+ }
+
+ .navbar-vertical-left,
+ .navbar-vertical-left ul.navbar-nav {
+ -webkit-transition: none;
+ -moz-transition: none;
+ transition: none;
+ -webkit-transform: none;
+ -moz-transform: none;
+ transform: none;
+ }
+
+ .navbar-vertical-left ul.navbar-nav > li {
+ display: table-cell;
+ }
+
+ .navbar-vertical-left ul.navbar-nav > li > a {
+ display: inline-block;
+ width: 100%;
+ text-align: center;
+ height: 50px;
+ line-height: 30px;
+ }
+
+ .navbar-vertical-left ul.navbar-nav > li > a > i.fa {
+ margin: 0;
+ }
+
+ .navbar-vertical-left ul.navbar-nav > li > a > span {
+ display: none;
+ }
+}*/
